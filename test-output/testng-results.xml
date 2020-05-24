@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDrivenBasics" duration-ms="7515" started-at="2020-05-24T06:05:53Z" finished-at="2020-05-24T06:06:01Z">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="385" started-at="2020-05-24T06:05:53Z" finished-at="2020-05-24T06:05:54Z">
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <test-method status="PASS" signature="loginAsBankManager()[pri:1, instance:com.w2a.testcases.BankManagerLoginTest@aa41f2]" name="loginAsBankManager" duration-ms="325" started-at="2020-05-24T06:05:53Z" finished-at="2020-05-24T06:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="7047" started-at="2020-05-24T06:05:54Z" finished-at="2020-05-24T06:06:01Z">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="setUp" is-config="true" duration-ms="9600" started-at="2020-05-24T06:05:44Z" finished-at="2020-05-24T06:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="addCustomerTest" duration-ms="1413" started-at="2020-05-24T06:05:54Z" data-provider="dp" finished-at="2020-05-24T06:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FN1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A1B2C3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="addCustomerTest" duration-ms="1469" started-at="2020-05-24T06:05:55Z" data-provider="dp" finished-at="2020-05-24T06:05:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FN2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A2B3C4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="addCustomerTest" duration-ms="1790" started-at="2020-05-24T06:05:57Z" data-provider="dp" finished-at="2020-05-24T06:05:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FN3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A1B2C3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="addCustomerTest" duration-ms="1063" started-at="2020-05-24T06:05:59Z" data-provider="dp" finished-at="2020-05-24T06:06:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FN4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A2B3C4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="addCustomerTest" duration-ms="1198" started-at="2020-05-24T06:06:00Z" data-provider="dp" finished-at="2020-05-24T06:06:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FN5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A1B2C3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@15b9425]" name="tearDown" is-config="true" duration-ms="2256" started-at="2020-05-24T06:06:01Z" finished-at="2020-05-24T06:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- DataDrivenBasics -->
+</testng-results>

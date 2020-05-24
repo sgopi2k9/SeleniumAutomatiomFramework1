@@ -1,0 +1,56 @@
+24/05/2020 12:20:12 devpinoyLogger Config file loaded successfully
+24/05/2020 12:20:12 devpinoyLogger Object Repository config file loaded successfully
+24/05/2020 12:20:36 devpinoyLogger Chrome browser launched successfully
+24/05/2020 12:20:42 devpinoyLogger Element found with locator: div > div:last-child > .btn.btn-primary.btn-lg and locatorType: css
+24/05/2020 12:20:42 devpinoyLogger Element: div > div:last-child > .btn.btn-primary.btn-lg clicked successfully
+24/05/2020 12:20:42 devpinoyLogger Element found with locator: button[ng-click='addCust()'] and locatorType: css
+24/05/2020 12:20:43 devpinoyLogger Element found with locator: button[ng-click='addCust()'] and locatorType: css
+24/05/2020 12:20:43 devpinoyLogger Element: button[ng-click='addCust()'] clicked successfully
+24/05/2020 12:20:43 devpinoyLogger Element found with locator: input[ng-model='fName'] and locatorType: css
+24/05/2020 12:20:44 devpinoyLogger Typed text: FN1 in element: input[ng-model='fName'] successfully
+24/05/2020 12:20:44 devpinoyLogger Element found with locator: input[ng-model='lName'] and locatorType: css
+24/05/2020 12:20:44 devpinoyLogger Typed text: LN1 in element: input[ng-model='lName'] successfully
+24/05/2020 12:20:44 devpinoyLogger Element found with locator: input[ng-model='postCd'] and locatorType: css
+24/05/2020 12:20:44 devpinoyLogger Typed text: A1B2C3 in element: input[ng-model='postCd'] successfully
+24/05/2020 12:20:44 devpinoyLogger Element found with locator: button[type='submit'] and locatorType: css
+24/05/2020 12:20:44 devpinoyLogger Element: button[type='submit'] clicked successfully
+24/05/2020 12:20:45 devpinoyLogger Element found with locator: button[ng-click='addCust()'] and locatorType: css
+24/05/2020 12:20:45 devpinoyLogger Element: button[ng-click='addCust()'] clicked successfully
+24/05/2020 12:20:45 devpinoyLogger Element found with locator: input[ng-model='fName'] and locatorType: css
+24/05/2020 12:20:45 devpinoyLogger Typed text: FN2 in element: input[ng-model='fName'] successfully
+24/05/2020 12:20:45 devpinoyLogger Element found with locator: input[ng-model='lName'] and locatorType: css
+24/05/2020 12:20:45 devpinoyLogger Typed text: LN2 in element: input[ng-model='lName'] successfully
+24/05/2020 12:20:45 devpinoyLogger Element found with locator: input[ng-model='postCd'] and locatorType: css
+24/05/2020 12:20:45 devpinoyLogger Typed text: A2B3C4 in element: input[ng-model='postCd'] successfully
+24/05/2020 12:20:45 devpinoyLogger Element found with locator: button[type='submit'] and locatorType: css
+24/05/2020 12:20:46 devpinoyLogger Element: button[type='submit'] clicked successfully
+24/05/2020 12:20:46 devpinoyLogger Element found with locator: button[ng-click='addCust()'] and locatorType: css
+24/05/2020 12:20:46 devpinoyLogger Element: button[ng-click='addCust()'] clicked successfully
+24/05/2020 12:20:46 devpinoyLogger Element found with locator: input[ng-model='fName'] and locatorType: css
+24/05/2020 12:20:46 devpinoyLogger Typed text: FN3 in element: input[ng-model='fName'] successfully
+24/05/2020 12:20:46 devpinoyLogger Element found with locator: input[ng-model='lName'] and locatorType: css
+24/05/2020 12:20:46 devpinoyLogger Typed text: LN3 in element: input[ng-model='lName'] successfully
+24/05/2020 12:20:46 devpinoyLogger Element found with locator: input[ng-model='postCd'] and locatorType: css
+24/05/2020 12:20:46 devpinoyLogger Typed text: A1B2C3 in element: input[ng-model='postCd'] successfully
+24/05/2020 12:20:46 devpinoyLogger Element found with locator: button[type='submit'] and locatorType: css
+24/05/2020 12:20:46 devpinoyLogger Element: button[type='submit'] clicked successfully
+24/05/2020 12:20:47 devpinoyLogger Element found with locator: button[ng-click='addCust()'] and locatorType: css
+24/05/2020 12:20:47 devpinoyLogger Element: button[ng-click='addCust()'] clicked successfully
+24/05/2020 12:20:47 devpinoyLogger Element found with locator: input[ng-model='fName'] and locatorType: css
+24/05/2020 12:20:47 devpinoyLogger Typed text: FN4 in element: input[ng-model='fName'] successfully
+24/05/2020 12:20:47 devpinoyLogger Element found with locator: input[ng-model='lName'] and locatorType: css
+24/05/2020 12:20:47 devpinoyLogger Typed text: LN4 in element: input[ng-model='lName'] successfully
+24/05/2020 12:20:47 devpinoyLogger Element found with locator: input[ng-model='postCd'] and locatorType: css
+24/05/2020 12:20:47 devpinoyLogger Typed text: A2B3C4 in element: input[ng-model='postCd'] successfully
+24/05/2020 12:20:47 devpinoyLogger Element found with locator: button[type='submit'] and locatorType: css
+24/05/2020 12:20:47 devpinoyLogger Element: button[type='submit'] clicked successfully
+24/05/2020 12:20:48 devpinoyLogger Element found with locator: button[ng-click='addCust()'] and locatorType: css
+24/05/2020 12:20:48 devpinoyLogger Element: button[ng-click='addCust()'] clicked successfully
+24/05/2020 12:20:48 devpinoyLogger Element found with locator: input[ng-model='fName'] and locatorType: css
+24/05/2020 12:20:48 devpinoyLogger Typed text: FN5 in element: input[ng-model='fName'] successfully
+24/05/2020 12:20:48 devpinoyLogger Element found with locator: input[ng-model='lName'] and locatorType: css
+24/05/2020 12:20:48 devpinoyLogger Typed text: LN5 in element: input[ng-model='lName'] successfully
+24/05/2020 12:20:48 devpinoyLogger Element found with locator: input[ng-model='postCd'] and locatorType: css
+24/05/2020 12:20:48 devpinoyLogger Typed text: A1B2C3 in element: input[ng-model='postCd'] successfully
+24/05/2020 12:20:48 devpinoyLogger Element found with locator: button[type='submit'] and locatorType: css
+24/05/2020 12:20:48 devpinoyLogger Element: button[type='submit'] clicked successfully
