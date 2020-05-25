@@ -18,7 +18,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.w2a.utilities.ExcelReader;
+import com.w2a.utilities.ExtentManager;
 
 
 public class TestBase {
@@ -42,6 +45,9 @@ public class TestBase {
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\TestData.xlsx");
 	public static WebDriverWait wait;
+	public static ExtentReports extent ;
+	public static ExtentTest test;
+	public static ExtentManager e = new ExtentManager();
 	
 	@BeforeSuite
 	public void setUp(){
@@ -71,7 +77,7 @@ public class TestBase {
 				driver = new InternetExplorerDriver();
 			}
 			else if(config.getProperty("browser").equalsIgnoreCase("chrome")){
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables1\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\chromedriver.exe");
 				driver = new ChromeDriver();
 				log.info("Chrome browser launched successfully");
 			}
@@ -85,6 +91,7 @@ public class TestBase {
 					Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
 			wait = new WebDriverWait(driver, 5);
 			
+			extent = e.getInstance();
 			
 		}
 		

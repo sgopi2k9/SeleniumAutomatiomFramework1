@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [DataDrivenBasics]">
-  <test thread-count="5" name="Add Customer Test(failed)">
+  <listeners>
+    <listener class-name="com.w2a.listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Bank Manager Login Test(failed)">
     <classes>
-      <class name="com.w2a.testcases.AddCustomerTest">
+      <class name="com.w2a.testcases.BankManagerLoginTest">
         <methods>
           <include name="setUp"/>
-          <include name="addCustomerTest" invocation-numbers="1 3"/>
           <include name="tearDown"/>
+          <include name="loginAsBankManager"/>
         </methods>
-      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
     </classes>
-  </test> <!-- Add Customer Test(failed) -->
+  </test> <!-- Bank Manager Login Test(failed) -->
 </suite> <!-- Failed suite [DataDrivenBasics] -->
