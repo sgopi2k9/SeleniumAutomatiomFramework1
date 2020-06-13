@@ -58,6 +58,7 @@ public class TestBase {
 	public static ExtentManager e = new ExtentManager();
 	public static List stepResults = new ArrayList<String>();
 	public static String testResult;
+	public static String browser;
 	
 	@BeforeSuite
 	public void setUp(){
@@ -81,6 +82,15 @@ public class TestBase {
 				e.printStackTrace();
 				log.error("### Error in loading Object repository config file ###"+e.getStackTrace());
 			}
+			
+			if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty()){
+				browser = System.getenv("browser");
+			}
+			else{
+				browser = config.getProperty("browser");
+			}
+			
+			System.setProperty("browser", browser);
 			
 			if(config.getProperty("browser").equalsIgnoreCase("ie")){
 				System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\IEDriverServer.exe");
@@ -223,7 +233,7 @@ public class TestBase {
 			
 		else{
 			stepResults.add("Fail");
-			childStep.pass(validationString+" Failed");
+			childStep.fail(validationString+" Failed");
 		}
 			
 	}
@@ -236,7 +246,7 @@ public class TestBase {
 			
 		else{
 			stepResults.add("Fail");
-			childStep.pass(validationString+" Failed");
+			childStep.fail(validationString+" Failed");
 		}
 	}
 	
