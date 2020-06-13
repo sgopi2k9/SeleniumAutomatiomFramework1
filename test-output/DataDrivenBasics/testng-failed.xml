@@ -9,8 +9,8 @@
       <class name="com.w2a.testcases.BankManagerLoginTest">
         <methods>
           <include name="setUp"/>
+          <include name="bankManagerLoginTest"/>
           <include name="tearDown"/>
-          <include name="loginAsBankManager"/>
         </methods>
       </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
     </classes>

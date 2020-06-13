@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Add Customer Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 25 18:25:58 IST 2020</td>
+<td>Started on:</td><td>Fri Jun 12 12:41:45 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4922 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (390 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,29 +76,164 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: 1, FN1, LN1, A1B2C3</td>
-<td></td>
-<td>1</td>
-<td>com.w2a.testcases.AddCustomerTest@3bcb1</td></tr>
+<td><div><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace26476340", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace26476340'><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.w2a.testcases.AddCustomerTest@9159b</td></tr>
 <tr>
 <td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: 2, FN2, LN2, A2B3C4</td>
-<td></td>
+<td><div><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30659122", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30659122'><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.w2a.testcases.AddCustomerTest@3bcb1</td></tr>
+<td>com.w2a.testcases.AddCustomerTest@9159b</td></tr>
 <tr>
 <td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: 3, FN3, LN3, A1B2C3</td>
-<td></td>
+<td><div><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace12635391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace12635391'><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.w2a.testcases.AddCustomerTest@3bcb1</td></tr>
+<td>com.w2a.testcases.AddCustomerTest@9159b</td></tr>
 <tr>
 <td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: 4, FN4, LN4, A2B3C4</td>
-<td></td>
+<td><div><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1939100", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1939100'><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.w2a.testcases.AddCustomerTest@3bcb1</td></tr>
+<td>com.w2a.testcases.AddCustomerTest@9159b</td></tr>
 <tr>
 <td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: 5, FN5, LN5, A1B2Z1</td>
-<td></td>
+<td><div><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2996468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2996468'><pre>org.testng.SkipException: addCustomerTest is not executed because run mode is No
+	at com.w2a.listeners.CustomListener.onTestStart(CustomListener.java:56)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.w2a.testcases.AddCustomerTest@3bcb1</td></tr>
+<td>com.w2a.testcases.AddCustomerTest@9159b</td></tr>
 </table><p>
 </body>
 </html>

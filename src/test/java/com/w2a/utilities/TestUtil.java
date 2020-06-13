@@ -60,4 +60,24 @@ public class TestUtil extends TestBase{
 		}
 		
 	}
+	
+	/*
+	 * Method to check if the test case can be executed or not
+	 */
+	
+	public static boolean isTestRunnable(String testName, ExcelReader excel){
+		String sheetName = "test_suite";
+		int rows = excel.getRowCount(sheetName);
+		for(int i=1;i<rows;i++){
+			String testCase = excel.getData(sheetName, i, 0);
+			if(testCase.equalsIgnoreCase(testName)){
+				String runMode = excel.getData(sheetName, i, 1);
+				if(runMode.equalsIgnoreCase("Y"))
+					return true;
+				else
+					return false;
+			}
+		}
+		return false;
+	}
 }

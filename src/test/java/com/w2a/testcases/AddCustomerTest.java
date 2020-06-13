@@ -5,6 +5,7 @@ import static org.testng.Assert.assertTrue;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.w2a.base.TestBase;
@@ -20,8 +21,12 @@ public class AddCustomerTest extends TestBase{
 			typeText(OR.getProperty("postalcode"), OR.getProperty("postalcode_locatorType"), postalCode);
 			clickElement(OR.getProperty("addcustomerbtn"),OR.getProperty("addcustomerbtn_locatorType"));
 			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-			Assert.assertTrue(alert.getText().contains("Customer added successfully"));
+			verifyIsTrue(alert.getText().contains("Customer added successfully"),"Customer add");
 			alert.accept();
+			verifyAll();
+			if(testResult.equals("Fail"))
+				Assert.fail();
+			
 			
 			
 		}
